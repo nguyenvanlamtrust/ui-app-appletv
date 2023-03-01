@@ -1,5 +1,4 @@
 import 'package:btl_kiemtra_flutter/bloc/category_bloc.dart';
-import 'package:btl_kiemtra_flutter/data/categories.dart';
 import 'package:btl_kiemtra_flutter/enums/category_type_enum.dart';
 import 'package:btl_kiemtra_flutter/extensions/category_type_ext.dart';
 import 'package:btl_kiemtra_flutter/extensions/text_style_ext.dart';

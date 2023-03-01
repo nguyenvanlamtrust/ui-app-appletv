@@ -20,7 +20,6 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
 
-  int _tabIndex = 0;
   final AppBottomNavigationBarBloc _appBottomNavigationBarBloc = AppBottomNavigationBarBloc();
 
   @override

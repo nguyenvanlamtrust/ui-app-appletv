@@ -1,6 +1,4 @@
-import 'package:btl_kiemtra_flutter/extensions/text_style_ext.dart';
 import 'package:btl_kiemtra_flutter/shared/constants.dart';
-import 'package:btl_kiemtra_flutter/widgets/app_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +15,7 @@ class MovieScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
-              child: Container(
+              child: SizedBox(
                 width: double.infinity,
                 child: Image.network(
                     'https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg',

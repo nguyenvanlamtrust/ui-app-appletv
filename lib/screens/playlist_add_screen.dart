@@ -1,6 +1,5 @@
 import 'package:btl_kiemtra_flutter/data/movie.dart';
 import 'package:btl_kiemtra_flutter/extensions/text_style_ext.dart';
-import 'package:btl_kiemtra_flutter/models/category_item.dart';
 import 'package:btl_kiemtra_flutter/models/movie_item.dart';
 import 'package:btl_kiemtra_flutter/screens/movie_screen.dart';
 import 'package:btl_kiemtra_flutter/shared/constants.dart';

@@ -15,12 +15,12 @@ class AppButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      onTap: onTap,
       child: Container(
         width: double.infinity,
         height: 50,
         alignment: Alignment.center,
-        child: Text(text, style: TextStyle(color: Colors.white)),
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(appRadius)),
           gradient: LinearGradient(
             begin: Alignment.topRight,
@@ -31,8 +31,8 @@ class AppButton extends StatelessWidget {
             ],
           )
         ),
+        child: Text(text, style: const TextStyle(color: Colors.white)),
       ),
-      onTap: onTap,
     );
   }
 }
